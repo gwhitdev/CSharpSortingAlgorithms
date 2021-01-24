@@ -9,6 +9,10 @@ namespace Sorting
         {
             SortingArrayModel array = new SortingArrayModel();
             int[] arr = array.Numbers;
+
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.Sort(arr);
+            
             /*
             int length = arr.Length;
             
@@ -30,8 +34,7 @@ namespace Sorting
             ReadKey();
             */
 
-            BubbleSort bubbleSort = new BubbleSort();
-            bubbleSort.Sort(arr);
+            
         }
     }
 }

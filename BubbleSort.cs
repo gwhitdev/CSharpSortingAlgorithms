@@ -30,13 +30,13 @@ namespace Sorting
                     }
                     
                 }
-                WriteLine("Moving number [" + moving + "]"); // displays which number is being moved from the above displayed array
+                //WriteLine("Moving number [" + moving + "]"); // displays which number is being moved from the above displayed array
                 foreach(var e in arr)
                 {
                     Write(e + " ");
                 }
                 WriteLine("");
-                Thread.Sleep(2000); // Adds a delay so you can see the sorting in the console
+                //Thread.Sleep(2000); // Adds a delay so you can see the sorting in the console
 
                 if(!swapped) return arr;
             }
