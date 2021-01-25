@@ -1,7 +1,7 @@
 using System;
 using static System.Console;
 
-namespace Sorting
+namespace Algorithms.Searching
 {
     class BinarySearch
     {

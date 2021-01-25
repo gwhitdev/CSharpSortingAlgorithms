@@ -1,4 +1,4 @@
-namespace Sorting
+namespace Algorithms.Models
 {
     public class SortingArrayModel
     {

@@ -1,19 +1,23 @@
 ﻿using System;
 using System.IO;
 using static System.Console;
-namespace Sorting
+using Algorithms.Sorting;
+using Algorithms.Searching;
+using Algorithms.Models;
+
+namespace Algorithms
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int target = 21;
             SortingArrayModel array = new SortingArrayModel();
             int[] arr = array.Numbers;
+            int target = 21;
 
             BubbleSort bubbleSort = new BubbleSort();
-            //bubbleSort.Sort(arr);
             BinarySearch binarySearch = new BinarySearch();
+            
             var result = binarySearch.Search(bubbleSort.Sort(arr), target);
             WriteLine(result);
 

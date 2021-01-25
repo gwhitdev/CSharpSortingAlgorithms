@@ -1,7 +1,7 @@
 using static System.Console;
 using System.Threading;
 
-namespace Sorting
+namespace Algorithms.Sorting
 {
     class BubbleSort
     {
