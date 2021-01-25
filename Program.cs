@@ -7,7 +7,7 @@ namespace Sorting
     {
         static void Main(string[] args)
         {
-            int target = 100;
+            int target = 21;
             SortingArrayModel array = new SortingArrayModel();
             int[] arr = array.Numbers;
 
