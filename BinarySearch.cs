@@ -12,7 +12,7 @@ namespace Sorting
             
             while (lowerBounds <= higherBounds) // stop after the two values collide -> we've looked at everything
             {
-                int midpoint = (lowerBounds + higherBounds) / 2; // find the mid point
+                int midpoint = (lowerBounds + higherBounds) / 2;
                 if (target == arr[midpoint]) return ++midpoint; // if the element at the indexed mid point == the target, return the midpoint in 'real terms'
                 if (target < arr[midpoint]) // if target is less than the current selected element, decrement the midpoint value
                 {
