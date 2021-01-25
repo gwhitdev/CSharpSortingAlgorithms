@@ -7,12 +7,16 @@ namespace Sorting
     {
         static void Main(string[] args)
         {
+            int target = 100;
             SortingArrayModel array = new SortingArrayModel();
             int[] arr = array.Numbers;
 
             BubbleSort bubbleSort = new BubbleSort();
-            bubbleSort.Sort(arr);
-            
+            //bubbleSort.Sort(arr);
+            BinarySearch binarySearch = new BinarySearch();
+            var result = binarySearch.Search(bubbleSort.Sort(arr), target);
+            WriteLine(result);
+
             /*
             int length = arr.Length;
             
